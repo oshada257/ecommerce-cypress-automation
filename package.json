@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:api": "cypress run --spec \"cypress/e2e/api/*.cy.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^16.1.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^5.0.0"
+  }
+}
